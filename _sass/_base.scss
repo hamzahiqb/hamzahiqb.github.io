@@ -1,6 +1,11 @@
 /* ==========================================================================
    BASE ELEMENTS
    ========================================================================== */
+* {
+  width: 100vw;
+  height: 100vh;
+}
+
 html {
   /* sticky footer fix */
   position: relative;
@@ -10,7 +15,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   padding-bottom: 9em;
   color: $text-color;
   font-family: $global-font-family;
